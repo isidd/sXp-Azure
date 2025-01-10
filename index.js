@@ -15,6 +15,8 @@ var store = [];
 var token = [];
 var activeSessions = [];
 
+console.log("Siddhartha Pharasi")
+
 app.get("/", (_, res) => {
   res.send("Hello there");
 });
